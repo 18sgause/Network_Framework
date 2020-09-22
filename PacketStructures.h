@@ -45,3 +45,10 @@ struct icmpheader
     unsigned short int icmp_id;
     unsigned short int icmp_seq;
 };
+
+struct ethheader
+{
+    unsigned char ether_dhost;
+    unsigned char ether_shost;
+    unsigned short ether_type;
+};
